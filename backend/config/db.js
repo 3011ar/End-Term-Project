@@ -2,7 +2,7 @@ import mongoose from 'mongoose'
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect("mongodb+srv://root:root@cluster0.yl8dqjf.mongodb.net/bloodbank?retryWrites=true&w=majority", {
+    const conn = await mongoose.connect("mongodb+srv://<User>:<Password>@id", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useCreateIndex: true,
